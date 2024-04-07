@@ -1,0 +1,246 @@
+/* .Form {
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: white;
+  }
+  
+  form {
+    margin-top:-10px;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 7px 0px 15px #fa5c7f, -7px 0px 15px #717bf9;
+    background-color: #321694;
+    border-radius: 25px;
+    padding: 2em;
+    height: 25em;
+  }
+  
+  form div {
+    width: 100%;
+    min-width: 100%;
+    margin: 5px 0px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: larger;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    background: #f2eef2;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 3em;
+  }
+  
+  input:active {
+    background: #faf8fa;
+  }
+  
+  textarea {
+    height: 7em;
+    width: 100%;
+    padding: 8px;
+    background: #f4f1f4;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  .submit-btn {
+    width: 50%;
+    font-size: 1.3em;
+    font-family: "Inter", sans-serif;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    display: block;
+    margin-top: 50px;
+    background-color: #de6b6b;
+    margin-top: 10px;
+    box-shadow: 7px 0px 15px #717bf9, -7px 0px 15px #fa5c7f;
+  }
+  
+  .submit-btn:hover {
+    box-shadow: 7px 0px 15px #fa5c7f, -7px 0px 15px #717bf9;
+    transform: scale(1.03);
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      height: fit-content;
+      width: 15em;
+      display: inline-block;
+    }
+  }
+   */
+
+   /* FormPage.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+.form-container{
+  margin-left: 469px;
+  margin-top: 26px;
+  width: 100px;
+}
+.Form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+ 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: #f9f8f8;
+  width: 100%;
+  
+}
+.ring {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring i {
+  position: absolute;
+  inset: 0;
+  border: 2px solid   rgb(33, 69, 20);;
+  transition: 0.5s;
+}
+
+.ring i:nth-child(1) {
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  animation: animate 6s linear infinite;
+  --clr: #41f4c5;
+}
+
+.ring i:nth-child(2) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+  animation: animate 4s linear infinite;
+  --clr: #41f4c5;
+}
+
+.ring i:nth-child(3) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+  animation: animate2 10s linear infinite;
+  --clr: #41f4c5;
+}
+
+.ring:hover i {
+  border: 6px solid var(--clr);
+  filter: drop-shadow(0 0 20px var(--clr));
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.login {
+   margin-top: -137px; 
+  /*margin-left: 882px; */
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.login h2 {
+  font-size: 2.7em;
+  color: #1b1a1a;
+ 
+}
+
+.login .inputBx {
+  position: relative;
+  width: 100%;
+  
+}
+
+.login .inputBx input {
+  position: relative;
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid #0c0c0c;
+  border-radius: 40px;
+  font-size: 1.2em;
+  color: #050505;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 20px; /* Adjust the gap as needed */
+  
+}
+
+.login .inputBx input[type="submit"] {
+  margin-left: 20px;
+  width: 100%;
+  /* background: #0078ff; */
+  background: linear-gradient(45deg, #f7f6f6, #c998e9);
+  border: none;
+  cursor: pointer;
+ 
+}
+
+.login .inputBx input::placeholder {
+  color: rgba(31, 31, 31, 0.75);
+
+}
+
+.login .links {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 30px;
+}
+
+.login .links a {
+  color: #070707;
+  text-decoration: none;
+}

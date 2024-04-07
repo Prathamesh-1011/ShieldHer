@@ -1,0 +1,66 @@
+.Contact {
+    height: fit-content;
+    width: 100vw;
+    /* margin-top: 10vh; */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 5em;
+  
+    overflow: hidden;
+    overflow-x: hidden;
+    background:url("Actual.png")
+  }
+  .contacttext {
+    margin: auto;
+  }
+  
+  .heading {
+    font-family: "Inter", sans-serif;
+    
+    border-width: 8px;
+    color: white;
+    margin: 0.8em 0.8em;
+    padding-left: 0.7em;
+    font-size: 4rem;
+    overflow-y: hidden;
+  }
+  
+  @media (max-width: 600px) {
+    .Contact {
+      overflow-x: hidden;
+    }
+  
+    /*.heading{
+          width:max-content;
+          left: 0px;
+          text-align: center;
+          font-size: 3em;
+          font-weight: 1000px;
+          font: 1.5em sans-serif;
+          padding:4px;
+          border-left: 4px;
+      }*/
+    .heading {
+      border: none;
+      width: max-content;
+      padding-right: 0px;
+      text-align: center;
+      font-size: 0.5rem;
+      font-weight: 100vw;
+      margin-left: 21px;
+  
+      align-items: flex-start;
+      overflow-y: hidden;
+    }
+  
+    .contacttext {
+      font-size: 48px;
+      margin-left: 10px;
+      margin: revert;
+      padding-left: 14px;
+      overflow-y: hidden;
+    }
+  }
+  

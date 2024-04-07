@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:opsz@6..12&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  overflow-x: hidden;
+  width: 100vw;
+ 
+}
+/* .colorpage{
+background: url("contact.png");
+background-size: cover;
+} */
+.LandPage {
+  /* height: 100vh; */
+  width: 100%;
+  overflow: hidden;
+  font-size: 1.5em;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(33, 69, 20);
+  font-family: "Nunito Sans", sans-serif;
+  /* background-color: aqua; */
+}
+
+.info {
+  width: 85px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.info p {
+  width: 600px;
+  height: 50px;
+  top: 80px;
+  left: 415px;
+  border: 1px;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:  #f6f9f6e0;
+  position: absolute;
+}
+
+.info h1 {
+  width: 862px;
+  height: 188px;
+  top: 50px;
+  left: 455px;
+  border: 5px;
+  font-family: Inter;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+}
+

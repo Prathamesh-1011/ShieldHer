@@ -1,0 +1,184 @@
+/* .patient {
+  color: rgb(247, 250, 246);
+  margin-left: 550px;
+  margin-top: 80px;
+  font-size: 100px;
+  font-weight: 800px;
+}
+.patient p{
+  animation-name: bounce;
+} */
+/* AboutUs.css */
+.joinus{
+  background: url('Pink\ Blue\ Simple\ Modern\ Illustrative\ \ Women\'s\ Day\ Instagram\ Post.png');
+  height: 800px;
+  margin-top: -46px;
+}
+
+.joinus h3{
+  margin-left: 480px;
+}
+.joinus .sheild {
+  /* background-image: url('phone.png');
+  background-size: contain;
+  background-position: center;
+  max-width: 15%;
+  height: 30rem;
+  margin-left: 150px; */
+  /* Additional styles for the div */
+}
+.sheild p{
+  margin-left: 450px;
+  font-size: 30px;
+  width:700px;
+  color: rgb(55, 52, 55);
+} 
+/* Additional CSS styles for other elements if needed */
+
+/* Button styles */
+.download-button {
+  display: inline-block;
+  padding: 12px 30px; /* Increased padding for larger button */
+  background-color: rgb(48, 162, 207);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  font-size: 35px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease;
+  margin-left: 630px;
+     margin-top: 216px;
+
+}
+
+.download-button:hover {
+  background-color: #26b1d8; /* Darker green on hover */
+}
+
+
+.joinus h3{
+  color: rgb(246, 250, 246);
+  margin-left: 480px;
+  margin-top: 50px;
+  font-size: 60px;
+  padding-top: 30px;
+  /* font-family: cursive; */
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  padding: 70px 0; /* 70px padding from top and bottom */
+
+}
+
+.card-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.card {
+  width: 420px;
+  height: 300px;
+  background: linear-gradient(#e66465, #f5af52);
+  margin-right: 38px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  position: relative; 
+}
+
+
+.card h1 {
+  color: white;
+  margin: 0; /* Remove default margin */
+}
+
+.card p {
+  color: white;
+  margin: 10px 0; /* Adjust margin */
+  text-align: center; /* Center-align text */
+}
+
+.card button {
+  border: 1px solid #ece9e9;
+  border-radius: 14px;
+  
+  height: 40px;
+  width: 50px;
+  position: absolute; /* Position button absolutely */
+  bottom: 20px; /* Adjust button position from bottom */
+  background-color: transparent; /* Make button transparent */
+  color: white; /* Change button color */
+  cursor: pointer;
+}
+
+.card.active {
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #ddd;
+  border: none;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color: #bbb;
+}
+
+.prev {
+  margin-right: 10px;
+}
+
+.next {
+  margin-left: -20px;
+}
+.secure{
+  height: 200px;
+}
+
+
+.button4 {
+    height: 60px;
+    width: 60px;
+}
+
+.button5,
+.button6 {
+    height: 150px;
+    width: 150px;
+}
+
+.button4,
+.button5,
+.button6
+{
+  margin-left: 20px;
+  background: url("ambulance.jpeg");
+  background-size: cover;
+  /* background: #0078ff; */
+  /* background:  #b86bec; */
+  border: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 130px; /* Adjusted margin value */
+  cursor: pointer;
+  border-radius: 12px;
+}

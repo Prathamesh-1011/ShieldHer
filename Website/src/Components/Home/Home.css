@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:opsz@6..12&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* position: absolute; */
+  top: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  font-family: serif;
+  background: white;
+   /* min-height: 100vh; */
+}
+.landimg{
+background: url("main\ 2.webp");
+background-size: cover;
+height: 80vw;
+width: 90%;
+margin-top: -35px;
+
+margin-left: 144px;
+top: 0;
+
+}
+/* Add this CSS to your Home.css file */
+
+.chatbot-button {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  background-color: #007bff; /* Change to desired background color */
+  color: #fff; /* Change to desired text color */
+  padding: 10px 20px;
+  border-radius: 80px; /* Adjust for rounded corners */
+  cursor: pointer;
+  z-index: 999; /* Ensure it's above other content */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.chatbot-button:hover {
+  background-color: #0056b3; /* Change to desired hover background color */
+}
+
+/* Optional: Add animation for more interactive effect */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.chatbot-button:hover {
+  animation: float 0.5s ease infinite; /* Add animation to hover effect */
+}
+
+.head{
+  margin-top: -890px;
+  background-color: rgb(241, 246, 199);
+ padding: 120px;
+ height: 200px;
+ width: 300px;
+
+
+}
+.head h3{
+  margin-top: -20px;
+  font-size: 40px;
+  color: rgb(33, 69, 20);
+  width: 436px;
+  margin-left: 0px;
+  
+}
+.head p{
+  width: 536px;
+  font-size: 25px;
+  color:  rgb(33, 69, 20);
+  margin-left: -100px;
+}
+.head #para{
+ 
+  width: 400px;
+  font-family:cursive ;
+  border: none;
+  height: 80px;
+  font-size: 20px;
+  border-radius: 50px;
+  color:rgb(33, 69, 20);
+  margin-left: -50px;
+ margin-top: 0px;
+ padding: auto;
+
+/*  
+  --glow-color: rgb(178, 251, 157);
+  --glow-spread-color: rgba(54, 104, 48, 0.021);
+  --enhanced-glow-color: rgb(178, 251, 157);
+  --btn-color: rgb(26, 87, 27);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+
+  background-color: var(--btn-color);
+  border-radius: em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+      0 0 4em 1em var(--glow-spread-color),
+      inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+
+button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+button:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+      0 0 4em 2em var(--glow-spread-color),
+      inset 0 0 .75em .25em var(--glow-color);
+}
+
+button:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+      0 0 2.5em 2em var(--glow-spread-color),
+      inset 0 0 .5em .25em var(--glow-color); */
+}
+
+.works{
+  margin-top: 500px;
+}
+.works h3{
+  font-size: 60px;
+  color:rgb(33, 69, 20);
+  margin-left: 580px;
+}
+.works p{
+  color:rgb(33, 69, 20);
+  margin-left: 0px;
+  font-size: 30px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+ 
+}
+.table{
+  margin-left: 150px;
+}
+.tab th{
+
+    border: 1px solid #0e0e0e;
+    border-collapse:collapse ;
+    color: rgb(33, 69, 20);
+    width:400px;
+    height: 500px;
+    
+ }
+ .tab #image{
+  background: url("grp.png");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  margin-left: 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50%;
+  width: 50%;
+ }
+ .tab #column{
+  width: 600px;
+ }
+ /* .body{
+  margin: 0;
+  padding:0 ;
+  font:sans-serif ;
+  font-size: 14px;
+  box-sizing: border-box;
+ 
+}
+.carousel{
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  border: 10px solid gray;
+
+}
+.carousel figure{
+  width: 400%;
+  position: relative;
+  margin: 0;
+  animation: animate 20s linear infinite;
+}
+.carousel #caro1 {
+  background: url("Review1.jpeg");
+  background-size: cover;
+}
+.carousel #caro2 {
+  background: url("Review2.jpeg");
+  background-size: cover;
+}
+.carousel #caro3 {
+  background: url("Review3.jpeg");
+  background-size: cover;
+}
+
+
+
+@keyframes animate{
+  0%{
+      left: 0;
+  }
+  20%{
+      left: 0;
+  }
+  25%{
+      left: -100%;
+  }
+  45%{
+      left: -100%;
+  }
+  50%{
+      left: -200%;
+  }
+  70%{
+      left: -200%;
+  }
+  75%{
+      left: -300%;
+  }
+   95%{
+      left: -300%;
+  }
+ 
+  100%{
+      left: 0;
+  }
+}
+.carousel #caro3 #caro2 #caro1 {
+  width: 25%;
+  float: left;
+} */
+
+
+.feature #feat{
+  font-size: 60px;
+  margin-top: 70px;
+  color:rgb(33, 69, 20);
+  margin-left: 550px;
+  font-weight:bolder;
+}
+ .meet{
+  font-size: 60px;
+  color:rgb(18, 18, 18);
+  margin-left: 500px;
+ }
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flipcard{
+  display: flex;
+  margin-left: -500px;
+  padding: 20px;
+  justify-content:space-around;
+  background-color: rgb(243, 207, 247);
+ height: 400px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,.flip-card-front2,.flip-card-front3, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  width:100%;
+  height:100%;
+  background: url("Namrata.jpeg");
+  background-size: cover;
+  
+}
+.flip-card-front2 {
+  background-color: #bbb;
+  color: black;
+  width:100%;
+  height:100%;
+  background: url("Prathamesh.jpeg");
+  background-size: cover;
+ 
+}
+.flip-card-front3{
+  background-color: #bbb;
+  color: black;
+  width:100%;
+  height:100%;
+background: url("Pranay.jpeg");
+  background-size: cover;
+}
+
+.flip-card-back {
+  background-color: #0b0b0b;
+  color: white;
+  transform: rotateY(180deg);
+  font-size: small;
+}
+.flip-card-back h1{
+  color: rgb(185, 180, 185);
+  font-size: 60px;
+}
+.flip-card-back p{
+  font-size: 15px;
+}
+/* .head h3{
+  width: 95%;
+} */
